@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.9)
+}
+h1 {
+    text-align: center;
+    color: rgb(213, 216, 218);
+}
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    box-shadow: 0 5px 8px;
+    padding: 22px;
+}
+fieldset {
+    border: 2px solid rgb(59, 59, 59);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 2opx;
+    background-color: rgb(31, 30, 30);
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(233, 231, 231);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color:rgb(174, 175, 175);
+}
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    
+    
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(116, 119, 119);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 19px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button:hover {
+   background-color: rgb(62, 62, 63);
+   color: aliceblue;
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    
+}
